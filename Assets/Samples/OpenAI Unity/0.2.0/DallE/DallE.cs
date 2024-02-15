@@ -10,7 +10,7 @@ namespace OpenAI
         public static DallE instance;
         [SerializeField] private InputField inputField;
         [SerializeField] private Button button;
-        [SerializeField] private Image[] images;
+        [SerializeField] public Image[] images;
         [SerializeField] private GameObject loadingLabel;
 
         private OpenAIApi openai = new OpenAIApi();
@@ -52,6 +52,12 @@ namespace OpenAI
                     texture.LoadImage(request.downloadHandler.data);
                     var sprite = Sprite.Create(texture, new Rect(0, 0, 256, 256), Vector2.zero, 1f);
                     images[imageID].sprite = sprite;
+
+                    if (request.isDone)
+                    {
+                        GameManager.instance.btnPlay.gameObject.SetActive(true);
+                        GameManager.instance.panelGPT.SetActive(false);
+                    }
                 }
             }
             else
