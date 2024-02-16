@@ -4,12 +4,14 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 using OpenAI;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
     public static GameManager instance;
     public GameObject panelGame;
     public GameObject btnPlay;
+    public Button btnRestart;
     public GameObject panelGPT;
     public GameObject panelDalle;
 
@@ -27,7 +29,7 @@ public class GameManager : MonoBehaviour
         instance = this;
         panelGame.SetActive(false);
         btnPlay.GetComponent<Button>().onClick.AddListener(() => { BtnPlayCallback(); });  
-
+        btnRestart.onClick.AddListener(() => { BtnRestart(); });
     }
     public void BtnPlayCallback()
     {
@@ -49,11 +51,19 @@ public class GameManager : MonoBehaviour
     {
         if(id1== id2)
         {
-            Debug.LogError("match");
+            //its a match   
+            txtNames[id1].gameObject.SetActive(false);
+            btnImages[id2].gameObject.SetActive(false);
         }
         else
         {
-            Debug.LogError("wrong");
+            //reset buttons
+            txtNames[id1].GetComponent<ButtonController>().isSelected= false;
+            btnImages[id2].GetComponent<ButtonController>().isSelected=false;
         }
+    }
+    public void BtnRestart()
+    {
+        SceneManager.LoadScene("main");
     }
 }

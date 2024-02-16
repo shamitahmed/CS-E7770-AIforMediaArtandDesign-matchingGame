@@ -31,7 +31,7 @@ namespace OpenAI
             var response = await openai.CreateImage(new CreateImageRequest
             {
                 //Prompt = inputField.text,
-                Prompt = input + "cartoon" + "white background",
+                Prompt = input + "colorful "+ "hand drawn " + "white background",
                 Size = ImageSize.Size256,
                 //Model = "dall-e-3",
                 //Quality = "standard",

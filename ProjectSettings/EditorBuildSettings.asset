@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Samples/OpenAI Unity/0.2.0/DallE/main.unity
+    guid: 849e6f90895d1894b8d5deae0481dc17
   m_configObjects: {}

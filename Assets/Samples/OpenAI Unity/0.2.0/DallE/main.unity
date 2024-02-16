@@ -1339,6 +1339,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   panelGame: {fileID: 158504838}
   btnPlay: {fileID: 161656154}
+  btnRestart: {fileID: 666132347}
   panelGPT: {fileID: 477714254}
   panelDalle: {fileID: 1173655299}
   txtNames:
@@ -1349,6 +1350,8 @@ MonoBehaviour:
   - {fileID: 1601164766}
   - {fileID: 1804545215}
   - {fileID: 861909540}
+  txtID: 0
+  imgID: 0
 --- !u!1 &354695585
 GameObject:
   m_ObjectHideFlags: 0

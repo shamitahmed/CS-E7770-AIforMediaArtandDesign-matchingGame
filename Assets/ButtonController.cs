@@ -19,7 +19,11 @@ public class ButtonController : MonoBehaviour
         {
             isSelected = true;
 
-            if(isImage)
+            if (!isImage)
+            {
+                GameManager.instance.txtID = ID;
+            }
+            if (isImage)
             {
                 GameManager.instance.imgID = ID;
                 GameManager.instance.CheckMatchingSelection(GameManager.instance.txtID,ID);
