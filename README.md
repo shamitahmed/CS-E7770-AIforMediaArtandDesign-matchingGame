@@ -21,3 +21,4 @@ Here is an example of what your auth.json file should look like:
     "api_key": "sk-...W6yi",
     "organization": "org-...L7W"
 }
+![image](https://github.com/shamitahmed/GenAI-matchingGame/assets/62556347/52cf37da-dffa-491a-87cb-54dc62dc7c03)
