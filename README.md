@@ -1,7 +1,23 @@
-User Generated Content Creation using Generative AI
+User Generated Game Content Creation using Generative AI in Unity
+
 This is my project submission for the AI for Media, Art, and Design (CS-E7770) course at Aalto University in 2024.
 
+Project Idea
+
+Create user-generated content (text elements, image elements, or both) for a game that has a collection of minigames based on user input.
+
+Focus
+
+Play-based Child Education through Visual, Auditory* & Reading based learnings.
+
+Project Goals
+
+1. Explore and learn different aspects of media design such as text, image, and audio
+2. Use the learnings to create a fully functioning project.
+
+
 Setting Up Your OpenAI Account
+
 To use the OpenAI API, you need to have an OpenAI account. Follow these steps to create an account and generate an API key:
 
 1. Go to https://openai.com/api and sign up for an account
@@ -9,6 +25,7 @@ To use the OpenAI API, you need to have an OpenAI account. Follow these steps to
 3. Create a new secret key and save it
 
 Saving Your Credentials
+
 To request the OpenAI API, use your API key and organization name (if applicable). To avoid exposing your API key in your Unity project, save it in your device's local storage.
 
 To do this, follow these steps:
