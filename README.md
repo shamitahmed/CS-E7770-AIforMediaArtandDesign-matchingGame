@@ -40,7 +40,8 @@ Here is an example of what your auth.json file should look like:
 Links
 
 1. Demo video: https://youtu.be/F_1ENALbQr8
-2. Unofficial package for using openai in Unity: https://github.com/srcnalt/OpenAI-Unity
+2. Demo presentation slides: https://docs.google.com/presentation/d/1iozhz92tmlpd2aWBGLG-iNrw0kCjV1i2vH-B13XeY_k/edit?usp=sharing
+3. Unofficial package for using openai in Unity: https://github.com/srcnalt/OpenAI-Unity
 
 ![image](https://github.com/shamitahmed/GenAI-matchingGame/assets/62556347/cc7852ca-2f35-4020-b031-c7d60bb77dc7)
 
