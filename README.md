@@ -36,3 +36,11 @@ To do this, follow these steps:
 Here is an example of what your auth.json file should look like:
 
 ![image](https://github.com/shamitahmed/GenAI-matchingGame/assets/62556347/52cf37da-dffa-491a-87cb-54dc62dc7c03)
+
+Links
+
+1. Demo video: https://youtu.be/F_1ENALbQr8
+2. Unofficial package for using openai in Unity: https://github.com/srcnalt/OpenAI-Unity
+
+![image](https://github.com/shamitahmed/GenAI-matchingGame/assets/62556347/cc7852ca-2f35-4020-b031-c7d60bb77dc7)
+
