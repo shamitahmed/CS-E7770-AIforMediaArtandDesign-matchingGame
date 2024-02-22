@@ -1,5 +1,7 @@
-Setting Up Your OpenAI Account
+User Generated Content Creation using Generative AI
+This is my project submission for the AI for Media, Art, and Design (CS-E7770) course at Aalto University in 2024.
 
+Setting Up Your OpenAI Account
 To use the OpenAI API, you need to have an OpenAI account. Follow these steps to create an account and generate an API key:
 
 1. Go to https://openai.com/api and sign up for an account
@@ -7,7 +9,6 @@ To use the OpenAI API, you need to have an OpenAI account. Follow these steps to
 3. Create a new secret key and save it
 
 Saving Your Credentials
-
 To request the OpenAI API, use your API key and organization name (if applicable). To avoid exposing your API key in your Unity project, save it in your device's local storage.
 
 To do this, follow these steps:
@@ -17,8 +18,4 @@ To do this, follow these steps:
 3. Add an api_key field and an organization field (if applicable) to the auth.json file and save it
 Here is an example of what your auth.json file should look like:
 
-{
-    "api_key": "sk-...W6yi",
-    "organization": "org-...L7W"
-}
 ![image](https://github.com/shamitahmed/GenAI-matchingGame/assets/62556347/52cf37da-dffa-491a-87cb-54dc62dc7c03)
