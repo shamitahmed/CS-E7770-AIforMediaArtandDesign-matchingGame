@@ -17,7 +17,7 @@ To do this, follow these steps:
 3. Add an api_key field and an organization field (if applicable) to the auth.json file and save it
 Here is an example of what your auth.json file should look like:
 
-    {
-        "api_key": "sk-...W6yi",
-        "organization": "org-...L7W"
-    }
+{
+    "api_key": "sk-...W6yi",
+    "organization": "org-...L7W"
+}
